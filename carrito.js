@@ -24,12 +24,12 @@ const pintarCarrito = () => {
       carritoContent.innerHTML = `
           <img src="${product.img}">
           <h3>${product.nombre}</h3>
-          <p>${product.precio} $</p>
+          <p>$${product.precio} </p>
           <span class="restar"> - </span>
           <!--recomiendo no escribir la palabra cantidad para que no quede tan largo :)-->
           <p>${product.cantidad}</p>
           <span class="sumar"> + </span>
-          <p>Total: ${product.cantidad * product.precio} $</p>
+          <p>Total: $${product.cantidad * product.precio} </p>
           <span class="delete-product"> ❌ </span>
         `;
   
@@ -70,7 +70,7 @@ const pintarCarrito = () => {
   
     const totalBuying = document.createElement("div");
     totalBuying.className = "total-content";
-    totalBuying.innerHTML = `Total a pagar: ${total} $`;
+    totalBuying.innerHTML = `Total a pagar: $${total} `;
     modalContainer.append(totalBuying);
   };
   
