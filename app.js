@@ -4,6 +4,8 @@ const modalContainer = document.getElementById("modal-container");
 const showAlert = document.getElementById("showAlert");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
 
+swal("Bienvenid@ a tu tienda de siempre");
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const listaProductos = async () => {
