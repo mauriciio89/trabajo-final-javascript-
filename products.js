@@ -20,7 +20,9 @@ const productos = [
       nombre: "Cerveza",
       precio: 150,
       img:
-        "https://tse2.mm.bing.net/th?id=OIP.zxRHqF6vafZxwSlIejOp3AHaE8&pid=Api&P=0"
+        "https://tse2.mm.bing.net/th?id=OIP.zxRHqF6vafZxwSlIejOp3AHaE8&pid=Api&P=0",
+      cantidad: 1,  
+      
     },
     {
       id: 4,
